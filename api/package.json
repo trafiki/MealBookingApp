@@ -4,7 +4,7 @@
   "description": "A simple meal booking api",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node app.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,18 @@
   "bugs": {
     "url": "https://github.com/trafiki/MealBookingApp/issues"
   },
-  "homepage": "https://github.com/trafiki/MealBookingApp#readme"
+  "homepage": "https://github.com/trafiki/MealBookingApp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-cli": "^6.26.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "nodemon": "^1.19.1"
+  }
 }
