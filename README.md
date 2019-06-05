@@ -1,4 +1,4 @@
-# MealNBookingApplication
+# MealBookingApplication
 
 ## SETUP
 
