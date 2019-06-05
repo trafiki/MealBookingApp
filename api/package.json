@@ -1,0 +1,23 @@
+{
+  "name": "meal-booking-api",
+  "version": "1.0.0",
+  "description": "A simple meal booking api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trafiki/MealBookingApp.git"
+  },
+  "keywords": [
+    "food",
+    "meal"
+  ],
+  "author": "Akerele Babatunde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trafiki/MealBookingApp/issues"
+  },
+  "homepage": "https://github.com/trafiki/MealBookingApp#readme"
+}
