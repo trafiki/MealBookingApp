@@ -1,3 +1,6 @@
 api/node_modules/
+api/.babelrc
+api/.eslintrc.js
+api/.jslintrc
 frontend/node_modules/
 setup-steps.txt
