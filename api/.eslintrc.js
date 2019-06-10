@@ -2,6 +2,8 @@ module.exports = {
   "extends": "airbnb-base",
   rules: {
     'no-console': 'off',
-    'eol-last': 'off'
+    'indent': 'off',
+    // ??
+    'no-param-reassign': 'off'
   }
 };
