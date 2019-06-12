@@ -11,23 +11,24 @@ const MealService = {
       newMeal.name = meal.name;
       newMeal.size = meal.size;
       newMeal.price = meal.price;
-      // return newMeal;
+      return newMeal;
     });
     return validMeals;
   },
-  addMeal(meal) {
+  addMeal(newMeal) {
     // get the id of the last item in the dummyData.meals array
     const mealLength = dummyData.meals.length;
-    const lastId = dummyData.meals[mealLength - 1];
+    const lastId = dummyData.meals[mealLength - 1].id;
     const newId = lastId + 1;
-    meal.id = newId;
-    dummyData.meals.push(meal);
-    return meal;
+    newMeal.id = newId;
+    dummyData.meals.push(newMeal);
+    return newMeal;
   },
   getMeal(id) {
     // look for the meal with matching id as the parameter
-    const meal = dummyData.meals.find(meaL => meaL.id === id);
-    return meal || {}; // return the meal if something is returned, else return an empty object
+    // used Number(id) because id evaluates as a string
+    const foundMeal = dummyData.meals.find(meaL => meaL.id === Number(id));
+    return foundMeal || {}; // return the meal if something is returned, else return an empty object
   },
 
 };
